@@ -2,6 +2,7 @@
   "name": "crks",
   "version": "0.0.0",
   "private": true,
+  "homepage": "http://fb05.github.io/crks",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
