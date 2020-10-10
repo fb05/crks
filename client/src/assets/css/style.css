@@ -2,373 +2,114 @@ html,
 body {
   height: 100%;
   position: relative;
+
+  margin:0;
+  padding:0;
+   
 }
-/* style på forside */
-
-
-
 .App {
-  min-height: 100vh; /* will cover the 100% of viewport */
+  background-color: rgb(3, 73, 114);
+  min-height: 100%; /* will cover the 100% of viewport */
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 100px; /* height of your footer */
+  padding-bottom: 100px; /* height of footer */
+  color: white;
 }
 
-div.jumbotron {
-  background: url("../img/Landing.jpg") no-repeat;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -ms-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  padding: 0;
-  background-position-y: 67%;
-}
-/*color: white;*/
+
  
-div.jumbotron-container h1 {
-  padding-top: 10%;
+/* style på forside */
+
+.welcomeNote h1{
+  /*padding-top: 10%;
   font-size: 30px;
-  
+  */
   font-weight: bold;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
+
+  text-align: center;
 }
 
-
-
-div.jumbotron-container button {
-  background-color: black;
-  border-color: black;
-}
-
-div.jumbotron-container button:hover {
-  background-color: black;
-  border-color: black;
-}
-
-div.jumbotron-container p {
-  color: black;
-  font-size: 25px;
+.welcomeNote p{
   font-weight: bold;
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 2px 0 #000;
+
+  text-align: center;
 }
+
+/*NAVBAR*/
 
 div.navbar nav {
-  background-color: white !important;
+  /*background-color: white !important;
+  color: white !important;*/
+  color: white !important;
+  background-color: rgb(3, 73, 114) !important;
+  
+}
+
+div.navbar a {
   color: white !important;
 }
 
-/*font-style: italic;*/
-
-div.layout-container {
-  margin-left: 2%;
-  margin-right: 2%;
-  
-  
-}
-
-
-div.layout-container i {
-  color: black;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-
-.rowFlipbox{
-  margin-left: 7%;
-  margin-right: 7%;
-}
-
-div.textfields{
-  border: 2px solid lightgrey;
-  border-radius: 25px;
-  padding: 35px;
-  
-}
-
-div.layout-col {
-  text-align: center;
-}
-
-.flip-box {
-  background-color: transparent;
-  width: 200px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: 0.7s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front,
-.flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  border-radius: 25px;
-}
-
-.flip-box-back {
-  background-color: white;
-  color: black;
-  transform: rotateY(180deg);
-  border: 1px solid black;
-  border-radius: 25px;
-}
-
-/* Style på formsiden */
-
-div.footer-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  border-top: 4px solid lightgray;
-  background-color: white;
-  color: white;
-}
-
-div.footer-container a {
-  color: black;
-  padding-left: 10px;
-}
-
-div.form-container {
-  display: block;
-  text-align: center;
-}
-
-#form-top {
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-#form-actual {
-  text-align: left;
-  width: 30%;
-  display: inline-block;
-}
-
-#form-top hr {
-  width: 20%;
-}
-
-#form-actual button {
-  background-color: black;
-  border-color: black;
-}
-
-/* Billeder på About */
-
-div.img1div {
-  display: inline-flex;
-  position: relative;
-  margin: 5px;
-}
-img.img1:hover {
-  opacity: 0.5;
-}
-img.img1:hover + div.img1text {
-  opacity: 1;
-}
-div.img1text:hover {
-  opacity: 1;
-}
-
-div.img1text {
-  color: white;
-  font-size: large;
-  position: absolute;
-  border: 2px;
-  opacity: 0;
-  transition: 1s;
+.name {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 4px 0 #000;
 }
 
 
 
-
-/* Style på About siden*/
-
-.kontaktinfo{
-  border: 1px solid lightgrey;
-  border-radius: 25px;
-  padding: 25px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.vælgdsa{
-  border: 1px solid lightgray;
-  border-radius: 25px;
-  padding: 25px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+/*ABOUT*/
 
 
 #about-jumb {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/About.jpg");
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -ms-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  padding: 0;
-  background-position-y: 30%;
-
-  
+  background-color: rgb(3, 73, 114);
 }
-
 #about-jumb h1 {
   padding-top: 10%;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
 }
-
 #about-jumb hr {
   border: solid 1px dimgrey !important;
   width: 20%;
 }
-
 #about-hr {
   width: 35%;
+  color: white 
 }
-
 div.about-info {
   margin-bottom: 2%;
 }
-
-#header-title {
+.about-header-title {
   text-align: center;
-}
-
-div.about-info h3 {
-  color: black;
-}
-
-.billede {
-  height: 25vh;
-  width: 25vh;
-  float: left;
-}
-
-#team {
-  text-align: center;
-}
-
-.hr-width {
-  width: 35%;
-  padding-bottom: 2%;
-}
-
-div.billede-info {
-  padding-left: 50% !important;
-}
-
-.gdprTop {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  ), url("../img/GDPR.jpeg");
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -ms-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  padding: 0;
-  background-position-y: 50%;
-  padding-top: 10%;
-}
-
-#gdprt{
-  border: 3px solid lightgray; 
-  border-radius: 25px;
-  padding: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
   
 }
 
-#gdprt h2 {
-  text-align: center;
-}
 
 
+/*GDPR*/
 
-
-.divEmergency {
-  background-image: url("../img/Emergency.jpeg");
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -ms-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(97%);
-  background-size: 100% auto;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  padding: 0;
-  background-position-y: 50%;
-  padding-top: 10%;
-}
-
-.gdprOverskrift{
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
-}
-
- 
-
-
-.conEmergency {
-  /*border: 1px solid lightgray;*/
-  border: 2px solid lightgray;
-  border-radius: 25px;
-  padding: 25px;
-  text-align: center;
+.gdprBack {
+  background-color: rgb(3, 73, 114);
   
 }
 
-.emergencyOverskrift{
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
 
+/*FOOTER*/
+
+.footer-container{
+  background-color: rgb(3, 73, 114);
+  color: lightsalmon;
+  margin-bottom: 0px;
+  position: sticky;
+  
 }
 
-
-
-
+.footer-jt {
+  margin-bottom: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

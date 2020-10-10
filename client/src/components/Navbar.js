@@ -8,33 +8,21 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand as={Link} to="/">Dansk System Assurance</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><h1 className="name">CRKS</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/">
               Forside
             </Nav.Link>
-            <Nav.Link as={Link} to="/ejendom">
-              Ejendomsforsikring
-            </Nav.Link>
-            <Nav.Link as={Link} to="/entreprise"> 
-              Entrepriseforsikring
-            </Nav.Link>
             <Nav.Link as={Link} to="/about">
               Om os
-            </Nav.Link>
-            <Nav.Link as={Link} to="/report">
-              Anmeld skade
-            </Nav.Link>
-            <Nav.Link as={Link} to="/emergency">
-              Akutnumre
-            </Nav.Link>
+            </Nav.Link>        
             <Nav.Link as={Link} to="/gdpr">
               GDPR
             </Nav.Link>
             <Nav.Link>
-            Tlf: 33 79 60 60
+            Tlf: 50 46 28 86
             </Nav.Link>
             
             

@@ -6,7 +6,8 @@ import { Row, Col } from "react-bootstrap";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <a href="/about">
+      <hr className="foothr"/>
+      
 
 
         <footer className="footer-jt">
@@ -14,7 +15,7 @@ const Footer = () => {
 
 
             <Row>
-              <Col>Tlf: 33 79 60 60</Col> <Col>dsa@systemassurance.dk</Col> <Col>Allegade 14, 2000 Frederiksberg</Col>
+              <Col>Tlf: 50 46 28 86</Col> <Col>crks@gmail.com</Col> <Col>Vilhelmsro 321a, 3480 Fredensborg</Col>
             </Row>
 
 
@@ -22,7 +23,7 @@ const Footer = () => {
 
         </footer>
 
-      </a>
+      
     </div>
   );
 };
