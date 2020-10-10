@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://fb05.github.io/crks",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "heroku-postbuild": "cd client && npm install && npm run build"
