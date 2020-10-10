@@ -94,7 +94,11 @@ div.about-info {
 
 .gdprBack {
   background-color: rgb(3, 73, 114);
-  
+}
+
+.gdprh1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
+  text-align: center;
 }
 
 
