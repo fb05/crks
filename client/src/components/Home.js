@@ -10,6 +10,31 @@ const Home = () => {
           <h1>Velkommen til CRKS marketing</h1>
           <p>Gør din online marketing bedre!!</p>  
       </div>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+      <p>Gør din online marketing bedre!!</p> 
+
     </div>
   );
 };

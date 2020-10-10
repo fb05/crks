@@ -13,7 +13,25 @@ const About = () => (
         <h1 className="about-header-title">Markedsfør din hjemmeside</h1>
           
       </Container>
-      
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/><p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
+      <p>Gør din online marketing bedre!!</p> 
+      <br/>
    </div>
   </div>
 );
