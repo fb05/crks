@@ -2,7 +2,8 @@
   "name": "crks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fb05.github.io/crks",
+
+  "homepage": "http://stennickedata.dk",
   "dependencies": {
     "-": "0.0.1",
     "axios": "^0.19.0",
