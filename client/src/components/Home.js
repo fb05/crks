@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home-container">
       <div className="welcomeNote">
           <h1>Velkommen til CRKS marketing</h1>
-          <p>Gør din online marketing bedre!</p>  
+          <p>Gør din online marketing bedre!!</p>  
       </div>
     </div>
   );
