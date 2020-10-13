@@ -18,16 +18,13 @@ body {
 
 
  
-/* style på forside */
+/* style på forside #7e3ef5*/
 
 .welcomeNote {
   text-align: center;
 }
 
 .welcomeNote h1{
-  /*padding-top: 10%;
-  font-size: 30px;
-  */
   font-weight: bold;
   color: lightgray;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 3px 0 black;
@@ -53,8 +50,8 @@ body {
 /*NAVBAR*/
 
 div.navbar nav {
-  color: #7e3ef5 !important;
-  background-color: #7e3ef5 !important;
+  color: darkslateblue !important;
+  background-color: darkslateblue !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -68,7 +65,7 @@ div.navbar a {
 }
 
 .navbar{
-  background-color: #7e3ef5 !important;
+  background-color: darkslateblue !important;
 }
 
 
@@ -105,7 +102,7 @@ div.about-info {
 
 .footer-container{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  background-color: #7e3ef5 !important;
+  background-color: darkslateblue !important;
   color: white;
   margin-bottom: 0px;
   position: sticky;
