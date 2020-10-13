@@ -3,8 +3,9 @@ import { Switch, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Gdpr from "./components/Gdpr";
 import Footer from './components/Footer';
+
+
 
 
 
@@ -15,7 +16,6 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/gdpr" component={Gdpr} />
         <Route component={Home}/>
       </Switch>
       <Footer/>

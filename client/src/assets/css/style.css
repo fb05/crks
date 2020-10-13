@@ -2,52 +2,60 @@ html,
 body {
   height: 100%;
   position: relative;
-
   margin:0;
   padding:0;
    
 }
 .App {
-  background-color: rgb(3, 73, 114);
+  background-color: white;
   min-height: 100%; /* will cover the 100% of viewport */
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 100px; /* height of footer */
-  color: white;
+  padding-bottom: 0px; /* height of footer */
+  
 }
 
 
  
 /* style på forside */
 
+.welcomeNote {
+  text-align: center;
+}
+
 .welcomeNote h1{
   /*padding-top: 10%;
   font-size: 30px;
   */
   font-weight: bold;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
-
-  text-align: center;
+  color: lightgray;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 3px 0 black;
 }
 
 .welcomeNote p{
   font-weight: bold;
-  color: white;
+  color: lightgray;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 2px 0 #000;
+}
+
+.welcomeNote h4{
+  font-weight: bold;
+  color: lightgray;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 2px 0 #000;
 
-  text-align: center;
+}
+
+.homeInfo{
+  background-color: white;
 }
 
 /*NAVBAR*/
 
 div.navbar nav {
-  /*background-color: white !important;
-  color: white !important;*/
-  color: white !important;
-  background-color: rgb(3, 73, 114) !important;
-  
+  color: #7e3ef5 !important;
+  background-color: #7e3ef5 !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 div.navbar a {
@@ -56,6 +64,11 @@ div.navbar a {
 
 .name {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 4px 0 #000;
+  background-image: url("../img/CRKS LOGO.png");
+}
+
+.navbar{
+  background-color: #7e3ef5 !important;
 }
 
 
@@ -71,33 +84,19 @@ div.navbar a {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
 }
-#about-jumb hr {
-  border: solid 1px dimgrey !important;
-  width: 20%;
-}
-#about-hr {
-  width: 35%;
-  color: white 
-}
+
 div.about-info {
   margin-bottom: 2%;
 }
 .about-header-title {
-  text-align: center;
+
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
+  color: white;
+  font-weight: bold;
   
 }
 
-
-
-/*GDPR*/
-
-.gdprBack {
-  background-color: rgb(3, 73, 114);
-}
-
-.gdprh1 {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
+.a1r {
   text-align: center;
 }
 
@@ -105,10 +104,12 @@ div.about-info {
 /*FOOTER*/
 
 .footer-container{
-  background-color: rgb(3, 73, 114);
-  color: lightsalmon;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: #7e3ef5 !important;
+  color: white;
   margin-bottom: 0px;
   position: sticky;
+  text-align: center;
   
 }
 

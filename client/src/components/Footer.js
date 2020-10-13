@@ -6,18 +6,14 @@ import { Row, Col } from "react-bootstrap";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <hr className="foothr"/>
-      
-
-
         <footer className="footer-jt">
           <div id="footerplace">
-
-
+          <br/>
             <Row>
-              <Col>Tlf: 50 46 28 86</Col> <Col>crks@gmail.com</Col> <Col>Vilhelmsro 321a, 3480 Fredensborg</Col>
+              <Col>Tlf: 50 46 28 86</Col> <Col>crks321a@gmail.com</Col> <Col>Vilhelmsro 321a, 3480 Fredensborg</Col>
             </Row>
-
+            <br/>
+            
 
           </div>
 

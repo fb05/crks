@@ -1,6 +1,9 @@
 import React from "react";
 // eslint-disable-next-line 
 import { Jumbotron, Container, Row, Col } from "react-bootstrap";
+import Logo from "../assets/img/CRKS LOGO.png";
+import Rasmusbilled from "../assets/img/rasmusbilled.JPG";
+import Sammenbilled from "../assets/img/fællesbilled.JPG";
 /*<video className="aboutvid" width="960" height="540" controls >
       <source src="https://www.youtube.com/watch?v=bd7eX2u1WUY&ab_channel=SimonKepp" type="video/mp4"/>
       </video>*/
@@ -9,28 +12,54 @@ const About = () => (
   
 
     <div className="about-info">
-      <Container>
-        <h1 className="about-header-title">Markedsfør din hjemmeside</h1>
-          
+    <br/>
+      <Container  className="a1r">
+          <Col>
+            <h1 className="about-header-title">Kontakt os</h1>
+            <hr/>
+          </Col>
+          <br/>
+          <br/>
+          <br/>
+        <Row>
+          <Col>
+          <h3>Ring eller skriv til os</h3>
+          <h3>Vi vil <u>altid</u> gerne snakke med dig.</h3>
+          </Col>
+          <Col>
+          <img src={Logo} alt="Logo" width="250" height="250"/>
+          </Col>
+        </Row>
+        <br/>
+        <br/>
+        <br/>
+        <Row>
+          <Col>
+            <h4>
+              Tlf:
+            </h4>
+            <h5>50 46 28 86</h5>
+          </Col>
+          <Col>
+            <img src={Sammenbilled} alt="Logo" width="300" height="200"/>
+          </Col>
+        </Row>
+        <br/>
+        <br/>
+        <br/>
+        <Row>
+          <Col>
+            <h4>
+              Email:
+            </h4>
+            <h5>crks321a@gmail.com</h5>
+          </Col>
+          <Col>
+            <img src={Rasmusbilled} alt="Logo" width="300" height="200"/>
+          </Col>
+        </Row>
+        <br/>
       </Container>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/><p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
-      <br/>
-      <p>Gør din online marketing bedre!!</p> 
       <br/>
    </div>
   </div>
