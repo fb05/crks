@@ -23,6 +23,9 @@ const About = () => (
           <br/>
         <Row>
           <Col>
+          <br/>
+          <br/>
+          <br/>
           <h3>Ring eller skriv til os</h3>
           <h3>Vi vil <u>altid</u> gerne snakke med dig.</h3>
           </Col>
@@ -38,7 +41,7 @@ const About = () => (
             <h4>
               Tlf:
             </h4>
-            <h5>50 46 28 86</h5>
+            <h5><a href="tel:+4550462886">50 46 28 86</a></h5>
           </Col>
           <Col>
             <img src={Sammenbilled} alt="Logo" width="300" height="200"/>
@@ -52,7 +55,7 @@ const About = () => (
             <h4>
               Email:
             </h4>
-            <h5>crks321a@gmail.com</h5>
+            <h5><a href="mailto:crks321a@gmail.com">crks321a@gmail.com</a></h5>
           </Col>
           <Col>
             <img src={Rasmusbilled} alt="Logo" width="300" height="200"/>
